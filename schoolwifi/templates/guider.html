@@ -1,0 +1,21 @@
+{% extends 'base.html' %}
+
+{% block title %}教程{% endblock %}
+
+{% block main %}
+        <div class="guider">
+        <p class="lead">校园tea WIFI使用教程</p>
+        <p><strong>step 1</strong></p>
+        确保你有两台可上网的设备;
+        将需要连接tea校园wifi的设备，连接上tea wifi。此时这台设备会没有网络，因此你需要使用另外一台设备登录我们的连接页面
+        <p><strong>step 2</strong></p>
+        在连接页面需要您输入IP地址，<mark>使用已经连接 tea wifi的设备查看当前的IP地址</mark>查看方式:<br>
+        <mark>电脑设备</mark>,可打开校园网登录界面，连接上wifi后(还没有网络) 在账号输入位置有当前的IP地址
+        或者通过cmd命令查看：按下win + r 键,弹出黑窗口,输入ipconfig，查看当前ip<br>
+        <mark>手机设备</mark>,连接wifi后,进入设置无线局域网，进入当前连接的wifi,可看到IP地址
+        <p><strong>step 3</strong></p>
+        将需要连接设备的IP地址，用可上网的设备登录我们的网页输入IP地址,点击连接即可，稍后需要连接设备的wifi就会有信号传输了
+
+
+    </div>
+{% endblock %}

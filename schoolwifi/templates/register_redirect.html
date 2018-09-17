@@ -1,0 +1,54 @@
+{% load staticfiles %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>跳转</title>
+    <style>
+        .info{
+            margin: 0 auto;
+            text-align: center;
+        }
+        #sp{
+            font-size: 18px;
+            color: #95d47a;
+        }
+    </style>
+</head>
+<body>
+
+
+<div class="info">
+    <span id="sp" ></span><br><br>
+    <span><a href="{% url 'login' %}">立即登录</a></span>
+
+</div>
+
+
+
+
+
+
+<script src="{% static 'js/jquery-3.1.1.min.js' %}"></script>
+<script >
+
+    $(function () {
+
+        setInterval(go, 1000);
+    });
+
+
+    var x=8; //利用了全局变量来执行
+
+    function go(){
+        x--;
+        if(x>0){
+            $("#sp").text("注册成功!请查收激活邮件,"+x+"秒后将自动进入登录页面......");  //每次设置的x的值都不一样了。
+        }else{
+            location.href='http://localhost:8000/login';
+        }
+    }
+</script>
+
+</body>
+</html>

@@ -1,0 +1,160 @@
+{% load staticfiles %}
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- 上述3个meta标签*必须*放在最前面，任何其他内容都*必须*跟随其后！ -->
+
+
+    <title>登录</title>
+
+    <style>
+        a:hover{
+            text-decoration: none;
+        }
+        .code {
+
+            width: 100%;
+            height: 45px;
+        }
+
+        .code-input {
+            width: 45%;
+            height: 100%;
+            margin: 0;
+            padding: 10px;
+            font-size: 18px;
+            float: left;
+            cursor: text;
+        }
+
+        .code-image {
+            width: 55%;
+            height: 100%;
+            margin: 0;
+            padding: 0;
+
+            float: left;
+        }
+
+        .code-image img {
+            width: 100%;
+            height: 100%;
+            cursor: pointer;
+        }
+
+        .add-link{
+            margin-top: 5px;
+        }
+
+        .forget-pwd{
+            display: block;
+            float: left;
+            color: #ffca30;
+            font-weight: bolder;
+
+        }
+        .register{
+            display: block;
+            float: right;
+            font-weight: bolder;
+            padding-right: 10px;
+            color: #31BBAC;
+
+        }
+
+    </style>
+
+    <!-- Bootstrap core CSS -->
+    <link href="{% static 'bootstrap-3.3.7/css/bootstrap.min.css' %}" rel="stylesheet">
+
+
+    <!-- Custom styles for this template -->
+    <link href="{% static 'css/signin.css' %}" rel="stylesheet">
+
+
+    <script src="{% static 'js/ie-emulation-modes-warning.js' %}"></script>
+
+
+</head>
+
+<body>
+
+<div class="container">
+    <form class="form-signin" method="post">
+        {% csrf_token %}
+        <h2 class="form-signin-heading text-center">请登录</h2>
+
+
+        <label for="" class="sr-only">account</label>
+        <input type="text" id="account" name="username" class="form-control" placeholder="账号" required autofocus>
+
+
+        <label for="inputPassword" class="sr-only">Password</label>
+        <input type="password" id="password" name="password" class="form-control" placeholder="密码" required>
+
+
+        <div class="code">
+            <input type="text" class="code-input" name="check_code" maxlength="6" placeholder="验证码" required>
+            <div class="code-image">
+                <img id="check_code_img" src="data:image/png;base64,{{ image_stream_base64 }}" alt="验证码">
+            </div>
+        </div>
+
+
+        <div class="checkbox">
+            <label>
+                <input type="checkbox" value="remember-me"> 记住密码
+            </label>
+            <div class="clearfix add-link">
+                <a href="#" class="forget-pwd">忘记密码?</a>
+               <a href="{% url 'register' %}" class="register">注册</a>
+            </div>
+
+        </div>
+        <span style="color: red;text-align: center;font-weight: bolder">{{ error_msg }}</span>
+        <button class="btn btn-lg btn-primary btn-block" type="submit">登录</button>
+    </form>
+
+</div> <!-- /container -->
+
+
+<!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
+<script src="{% static 'js/ie10-viewport-bug-workaround.js' %}"></script>
+<script src="{% static 'js/jquery-3.1.1.min.js' %}"></script>
+<script>
+    //实现异步加载验证码
+    $(function () {
+        //预加载验证码
+        get_check_code();
+        //点击刷新验证码
+        $("#check_code_img").click(function () {
+            get_check_code()
+        })
+
+
+    });
+
+    //ajax 异步获取验证码
+    function get_check_code() {
+        $.ajax({
+            type: 'GET',
+            url: '{% url 'reflesh_code' %} ',
+            data: {},
+            async: true,
+            beforeSend: function (xhr, settings) {
+                xhr.setRequestHeader("X-CSRFToken", "{{ csrf_token }}");
+            },
+            success: function (result) {
+                var img_data = result.img;
+                $("#check_code_img").attr('src', 'data:image/png;base64,' + img_data)
+            }
+        });
+    }
+
+
+</script>
+</body>
+</html>

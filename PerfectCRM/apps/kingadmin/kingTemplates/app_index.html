@@ -1,0 +1,31 @@
+{% extends  'kingTemplates/index.html' %}
+
+{% block right-content-container %}
+    <h2 class="page-header">APPS</h2>
+
+    <div>
+        {% for app_name,app_tables in site.enabled_admins.items %}
+
+            <table class="table table-striped">
+
+                <thead>
+                <th>{{ app_name }}</th>
+                </thead>
+
+                <tbody>
+                {% for model_name in app_tables %}
+                    <tr>
+                        <td><a href="{% url 'table_obj_list' app_name model_name %}">{{ model_name }}</a></td>
+                    <td><a href="#">add</a></td>
+                    <td><a href="#">change</a></td>
+                    </tr>
+                {% endfor %}
+                </tbody>
+
+            </table>
+
+        {% endfor %}
+
+
+    </div>
+{% endblock %}

@@ -1,0 +1,32 @@
+{% extends 'kingTemplates/index.html' %}
+{% load staticfiles %}
+{% load kingadmin_tags %}
+
+
+{% block right-content-container %}
+    <h2 class="page-header">table_obj_list</h2>
+    <div>
+
+        {{ querysets }}
+        <table class="table table-striped">
+            <thead>
+            {% for clumn in  admin_class.list_display %}
+                <th>
+                    {{ clumn }}
+                </th>
+            {% endfor %}
+
+            </thead>
+
+            <tbody>
+                {% for obj in querysets %}
+                    <tr>
+                        {% build_table_row obj admin_class %}
+                    </tr>
+                {% endfor %}
+
+            </tbody>
+        </table>
+</div>
+
+{% endblock %}

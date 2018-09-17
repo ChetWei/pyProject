@@ -1,0 +1,93 @@
+{% extends 'base.html' %}
+
+{% block title %}连接{% endblock %}
+
+{% block extends_css %}
+    <style>
+        #input-ip{
+            text-align: center;
+        }
+    </style>
+{% endblock %}
+
+
+{% block main %}
+    <div class="connect-main">
+
+                <div class="form-group">
+                    <label>需要连接设备的Ip地址</label>
+                    <input type="email" class="form-control" id="input-ip" maxlength="15" placeholder="Ip Address" required>
+                </div>
+
+                <div class="form-group">
+                    <button class="form-control btn btn-info" id="connect-btn">立即连接</button>
+                </div>
+
+                <div>
+                    <button class="form-control btn btn-danger" id="cut-btn">断开连接</button>
+                </div>
+        </div>
+{% endblock %}
+
+
+
+{% block extends_js %}
+
+    <script>
+        $(function () {
+           $('#connect-btn').click(function () {
+
+               var ipAddress  = $("#input-ip").val();
+
+                if(isValidIP(ipAddress)){  //输入ip合法性判断
+
+                    $.ajax({
+                        type : 'POST',
+                        url : '{% url 'connect' %} ',
+                        data : {'ip':ipAddress,'action':'connect'},
+                        async: true,
+                        beforeSend:function(xhr, settings){
+                            xhr.setRequestHeader("X-CSRFToken", "{{ csrf_token }}");
+                        },
+                        success : function (result) {
+                            console.log(result.msg);
+                            if(result.msg == 'login_ok'){
+                               // $("#connect").val("已连接").removeClass("btn-primary").addClass("btn-success");
+                            }
+                            else if (result.msg == 'delay'){
+                                //alert("网络好像有点延迟");
+                            }
+                            else if(result.msg == 'limit'){
+                                //alert("您的频率有点快,请等待5分钟后再试");
+                            }
+                            else if (result.msg == 'out_time'){
+                                //alert("请在有效时间范围内连接")
+                            }
+                            else {
+                                //alert("连接失败");
+                            }
+
+                        }
+                    })
+                }
+                else{
+                    alert("ip地址有误")
+                }
+
+            });
+
+        });
+
+
+
+        /* @return true or false*/
+        function isValidIP(ip)
+        {
+            var reg =  /^(\d{1,2}|1\d\d|2[0-4]\d|25[0-5])\.(\d{1,2}|1\d\d|2[0-4]\d|25[0-5])\.(\d{1,2}|1\d\d|2[0-4]\d|25[0-5])\.(\d{1,2}|1\d\d|2[0-4]\d|25[0-5])$/
+            return reg.test(ip);
+        }
+    </script>
+
+{% endblock %}
+
+

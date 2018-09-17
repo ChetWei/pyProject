@@ -1,0 +1,261 @@
+{% load staticfiles %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>注册</title>
+    <link rel="stylesheet" href="{% static 'bootstrap-3.3.7/css/bootstrap.min.css' %}">
+    <style>
+        .mylink {
+            display: block;
+            text-align: center;
+            margin: 0 auto;
+            color: #31BBAC;
+            font-weight: bolder;
+        }
+
+        a:hover {
+            text-decoration: none;
+        }
+
+        .warning-info {
+            height: 34px;
+            line-height: 34px;
+            color: red;
+            display: none;
+        }
+
+    </style>
+</head>
+<body>
+<div class="container  ">
+    <h3 class="text-center">注册</h3>
+
+    <form class="form-horizontal" method="post" action="{% url 'register' %}">
+        {% csrf_token %}
+        <div class="form-group ">
+            <label for="inputEmail3" class="col-sm-2 control-label col-sm-offset-2">邮箱</label>
+            <div class="col-sm-4">
+                <input type="email" name="email" class="form-control" id="inputEmail" placeholder="Email" maxlength="30" required>
+            </div>
+            <span class="warning-info col-sm-1">hello</span>
+        </div>
+
+        <div class="form-group ">
+            <label for="" class="col-sm-2 control-label col-sm-offset-2">学号</label>
+            <div class="col-sm-4">
+                <input type="text" class="form-control" name="snumber" id="snumber" placeholder="Student Number" maxlength="15"
+                       required>
+            </div>
+            <span class="warning-info col-sm-1">hello</span>
+        </div>
+
+        <div class="form-group">
+            <label for="inputPassword3" class="col-sm-2 control-label col-sm-offset-2">密码</label>
+            <div class="col-sm-4">
+                <input type="password" class="form-control" id="inputPassword1" name="pwd1" placeholder="Password" maxlength="20"
+                       required>
+            </div>
+            <span class="warning-info col-sm-1">hello</span>
+        </div>
+
+        <div class="form-group">
+            <label for="inputPassword3" class="col-sm-2 control-label col-sm-offset-2">确认密码</label>
+            <div class="col-sm-4">
+                <input type="password" class="form-control" id="inputPassword2" name="pwd2" placeholder="Password" maxlength="20"
+                       required>
+            </div>
+            <span class="warning-info col-sm-1">hello</span>
+        </div>
+
+        <div class="form-group">
+            <label for="" class="col-sm-2 control-label col-sm-offset-2"></label>
+
+            <div class="col-sm-4">
+                <span style="color: red;text-align: center;font-weight: bolder">{{ error_msg }}</span>
+                <input type="submit" class="form-control btn-info" id="submit" value="立即注册">
+            </div>
+        </div>
+    </form>
+    <a href="{% url 'login' %}" class="mylink">已有账号?</a>
+</div>
+
+<script src="{% static 'js/jquery-3.1.1.min.js' %}"></script>
+<script>
+
+    var check1 = 0 ;
+    var check2 = 0 ;
+    var check3 = 0 ;
+    var check4 = 0 ;
+
+    $(function () {
+         check_email();
+         check_snumber();
+         check_pwd1();
+         check_pwd2();
+
+        $("#submit").click(function () {
+            if(!(check1 == check2 == check3 == check4 == 1)){
+                return false
+            }
+            else{
+                alert($("form").serialize());
+                return true
+            }
+        })
+    });
+
+    //检查邮箱输入
+    function check_email() {
+            //1.邮箱
+            $("#inputEmail").blur(function () {
+                //判断输入是否为空
+                var value = $(this).val();
+                if (value == '') {
+                    $(this).css({'border-color': 'red'});
+                    $(this).parent().next().text('不能为空');
+                    $(this).parent().next().css('display', 'block');
+                    check1 = 0
+                }
+                //判断是否符合字段要求
+                else {
+
+                    if (!is_right_email(value)) {
+                        $(this).css({'border-color': 'red'});
+                        $(this).parent().next().text('邮箱错误');
+                        $(this).parent().next().css('display', 'block');
+                        check1 = 0
+                    }
+                    else {
+                        $(this).parent().next().css('display', 'none');
+                        check1 = 1 ;
+                    }
+                }
+            }).focus(function () {
+                $(this).css({'border-color': '#269abc'})
+            });
+        }
+
+    //检查学号输入
+    function check_snumber() {
+            //2学号
+            $("#snumber").blur(function () {
+                //判断输入是否为空
+                var value = $(this).val();
+                if (value == '') {
+                    $(this).css({'border-color': 'red'});
+                    $(this).parent().next().text('不能为空');
+                    $(this).parent().next().css('display', 'block');
+                    check2 = 0
+                }
+                //判断是否符合字段要求
+                else {
+                    if (!checkNumber(value)) {
+                        $(this).css({'border-color': 'red'});
+                        $(this).parent().next().text('错误学号');
+                        $(this).parent().next().css('display', 'block');
+                        check2 = 0
+                    }
+                    else {
+                        $(this).parent().next().css('display', 'none');
+                        check2 =  1
+                    }
+                }
+            }).focus(function () {
+                $(this).css({'border-color': '#269abc'})
+            });
+        }
+
+    //检查密码1输入
+    function check_pwd1() {
+
+            //3 密码1
+            $("#inputPassword1").blur(function () {
+                //判断输入是否为空
+                var value = $(this).val();
+                var password2 = $("#inputPassword2").val();
+                if (value == '') {
+                    $(this).css({'border-color': 'red'});
+                    $(this).parent().next().text('不能为空');
+                    $(this).parent().next().css('display', 'block');
+                    check3 = 0
+                }
+                //判断是否符合字段要求
+                else {
+                    if (value.length < 6) {
+                        $(this).css({'border-color': 'red'});
+                        $(this).parent().next().text('少于6位');
+                        $(this).parent().next().css('display', 'block');
+                        check3 = 0
+                    }
+                    else {
+                        $(this).parent().next().css('display', 'none');
+                        check3 = 1
+                    }
+                }
+            }).focus(function () {
+                $(this).css({'border-color': '#269abc'})
+            });
+
+        }
+
+    //检查密码2输入
+    function check_pwd2() {
+            //4.密码2
+            $("#inputPassword2").blur(function () {
+                //判断输入是否为空
+                var value = $(this).val();
+                var password1 = $("#inputPassword1").val();
+                if (value == '') {
+                    $(this).css({'border-color': 'red'});
+                    $(this).parent().next().text('不能为空');
+                    $(this).parent().next().css('display', 'block');
+                    check4 = 0
+                }
+
+                //判断是否符合字段要求
+                else {
+                    if (value.length < 6) {
+                        $(this).css({'border-color': 'red'});
+                        $(this).parent().next().text('少于6位');
+                        $(this).parent().next().css('display', 'block');
+                        check4 = 0
+                    }
+                    else {
+                        if (value != password1) {
+                            $(this).css({'border-color': 'red'});
+                            $(this).parent().next().text('不一致');
+                            $(this).parent().next().css('display', 'block');
+                            check4 = 0
+                        }
+                        else {
+                            $(this).parent().next().css('display', 'none');
+                            check4 = 1
+                        }
+                    }
+                }
+            }).focus(function () {
+                $(this).css({'border-color': '#269abc'})
+            });
+        }
+
+
+
+    //合法邮箱校验
+    function is_right_email(email) {
+        var mailReg = /^(\w-*\.*)+@(\w-?)+(\.\w{2,})+$/;
+        return mailReg.test(email);
+    }
+
+    //判断是否全为数字
+    function checkNumber(input) {
+        var re = /^[0-9]+$/;//判断字符串是否为数字//判断正整数/[1−9]+[0−9]∗]∗/
+        return re.test(input)
+
+    }
+
+
+
+</script>
+</body>
+</html>
