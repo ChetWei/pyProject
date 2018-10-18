@@ -1,0 +1,682 @@
+1539495796297	mozrunner::runner	INFO	Running command: "F:\\FireFox\\firefox.exe" "-marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\ADMINI~1\\AppData\\Local\\Temp\\rust_mozprofile.6EiPk29sFMdj"
+1539495802010	Marionette	INFO	Listening on port 49817
+1539495802160	Marionette	WARN	TLS certificate errors will be ignored for this session
+1539495802212	Marionette	DEBUG	[4294967297] Frame script loaded
+1539495802333	Marionette	DEBUG	[4294967297] Frame script registered
+1539496048952	Marionette	DEBUG	[4294967297] Received DOM event beforeunload for about:blank
+1539496048977	Marionette	DEBUG	[4294967297] Received DOM event pagehide for about:blank
+1539496049177	Marionette	DEBUG	[4294967297] Received DOM event DOMContentLoaded for http://127.0.0.1:8000/get_loginUI/
+1539496050190	Marionette	DEBUG	[4294967297] Received DOM event pageshow for http://127.0.0.1:8000/get_loginUI/
+1539496050397	Marionette	DEBUG	[4294967297] Received DOM event beforeunload for http://127.0.0.1:8000/get_loginUI/
+1539496050414	Marionette	DEBUG	[4294967297] Received DOM event pagehide for http://127.0.0.1:8000/get_loginUI/
+1539496050415	Marionette	DEBUG	[4294967297] Received DOM event unload for http://127.0.0.1:8000/get_loginUI/
+1539496050421	Marionette	DEBUG	[4294967297] Received DOM event DOMContentLoaded for http://127.0.0.1:8000/fail/
+1539496050436	Marionette	DEBUG	[4294967297] Received DOM event pageshow for http://127.0.0.1:8000/fail/
+1539496062121	Marionette	DEBUG	[4294967297] Received DOM event beforeunload for http://127.0.0.1:8000/fail/
+1539496062137	Marionette	DEBUG	[4294967297] Received DOM event pagehide for http://127.0.0.1:8000/fail/
+1539496062228	Marionette	DEBUG	[4294967297] Received DOM event DOMContentLoaded for http://127.0.0.1:8000/get_loginUI/
+1539496064549	Marionette	DEBUG	[4294967297] Received DOM event pageshow for http://127.0.0.1:8000/get_loginUI/
+1539496064634	Marionette	DEBUG	[4294967297] Received DOM event beforeunload for http://127.0.0.1:8000/get_loginUI/
+1539496064645	Marionette	DEBUG	[4294967297] Received DOM event pagehide for http://127.0.0.1:8000/get_loginUI/
+1539496064645	Marionette	DEBUG	[4294967297] Received DOM event unload for http://127.0.0.1:8000/get_loginUI/
+1539496064650	Marionette	DEBUG	[4294967297] Received DOM event DOMContentLoaded for http://127.0.0.1:8000/fail/
+1539496064662	Marionette	DEBUG	[4294967297] Received DOM event pageshow for http://127.0.0.1:8000/fail/
+1539496161247	Marionette	DEBUG	[4294967297] Received DOM event beforeunload for http://127.0.0.1:8000/fail/
+1539496161279	Marionette	DEBUG	[4294967297] Received DOM event pagehide for http://127.0.0.1:8000/fail/
+1539496161369	Marionette	DEBUG	[4294967297] Received DOM event DOMContentLoaded for http://127.0.0.1:8000/get_loginUI/
+1539496162382	Marionette	DEBUG	[4294967297] Received DOM event pageshow for http://127.0.0.1:8000/get_loginUI/
+1539496162602	Marionette	DEBUG	[4294967297] Received DOM event beforeunload for http://127.0.0.1:8000/get_loginUI/
+1539496162616	Marionette	DEBUG	[4294967297] Received DOM event pagehide for http://127.0.0.1:8000/get_loginUI/
+1539496162617	Marionette	DEBUG	[4294967297] Received DOM event unload for http://127.0.0.1:8000/get_loginUI/
+1539496162623	Marionette	DEBUG	[4294967297] Received DOM event DOMContentLoaded for http://127.0.0.1:8000/success/
+1539496162637	Marionette	DEBUG	[4294967297] Received DOM event pageshow for http://127.0.0.1:8000/success/
+1539496171908	Marionette	DEBUG	[4294967297] Received DOM event beforeunload for http://127.0.0.1:8000/success/
+1539496171923	Marionette	DEBUG	[4294967297] Received DOM event pagehide for http://127.0.0.1:8000/success/
+1539496172028	Marionette	DEBUG	[4294967297] Received DOM event DOMContentLoaded for http://127.0.0.1:8000/get_loginUI/
+1539496173041	Marionette	DEBUG	[4294967297] Received DOM event pageshow for http://127.0.0.1:8000/get_loginUI/
+1539496173192	Marionette	DEBUG	[4294967297] Received DOM event beforeunload for http://127.0.0.1:8000/get_loginUI/
+1539496173199	Marionette	DEBUG	[4294967297] Received DOM event pagehide for http://127.0.0.1:8000/get_loginUI/
+1539496173202	Marionette	DEBUG	[4294967297] Received DOM event unload for http://127.0.0.1:8000/get_loginUI/
+1539496173225	Marionette	DEBUG	[4294967297] Received DOM event DOMContentLoaded for http://127.0.0.1:8000/success/
+1539496173227	Marionette	DEBUG	[4294967297] Received DOM event pageshow for http://127.0.0.1:8000/success/
+1539507351992	mozrunner::runner	INFO	Running command: "F:\\FireFox\\firefox.exe" "-marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\ADMINI~1\\AppData\\Local\\Temp\\rust_mozprofile.jAxCUgHTSHH3"
+1539507359481	Marionette	INFO	Listening on port 52781
+1539507359562	Marionette	WARN	TLS certificate errors will be ignored for this session
+1539507359609	Marionette	DEBUG	[4294967297] Frame script loaded
+1539507359622	Marionette	DEBUG	[4294967297] Frame script registered
+1539507442122	Marionette	DEBUG	[4294967297] Received DOM event beforeunload for about:blank
+1539507442144	Marionette	DEBUG	[4294967297] Received DOM event pagehide for about:blank
+1539507442375	Marionette	DEBUG	[4294967297] Received DOM event DOMContentLoaded for http://127.0.0.1:8000/get_loginUI/
+1539507443435	Marionette	DEBUG	[4294967297] Received DOM event pageshow for http://127.0.0.1:8000/get_loginUI/
+1539507443658	Marionette	DEBUG	[4294967297] Received DOM event beforeunload for http://127.0.0.1:8000/get_loginUI/
+1539507443673	Marionette	DEBUG	[4294967297] Received DOM event pagehide for http://127.0.0.1:8000/get_loginUI/
+1539507443673	Marionette	DEBUG	[4294967297] Received DOM event unload for http://127.0.0.1:8000/get_loginUI/
+1539507443680	Marionette	DEBUG	[4294967297] Received DOM event DOMContentLoaded for http://127.0.0.1:8000/success/
+1539507443697	Marionette	DEBUG	[4294967297] Received DOM event pageshow for http://127.0.0.1:8000/success/
+1539507482753	Marionette	DEBUG	[4294967297] Received DOM event beforeunload for http://127.0.0.1:8000/success/
+1539507482774	Marionette	DEBUG	[4294967297] Received DOM event pagehide for http://127.0.0.1:8000/success/
+1539507482872	Marionette	DEBUG	[4294967297] Received DOM event DOMContentLoaded for http://127.0.0.1:8000/get_loginUI/
+1539507485148	Marionette	DEBUG	[4294967297] Received DOM event pageshow for http://127.0.0.1:8000/get_loginUI/
+1539507485242	Marionette	DEBUG	[4294967297] Received DOM event beforeunload for http://127.0.0.1:8000/get_loginUI/
+1539507485249	Marionette	DEBUG	[4294967297] Received DOM event pagehide for http://127.0.0.1:8000/get_loginUI/
+1539507485250	Marionette	DEBUG	[4294967297] Received DOM event unload for http://127.0.0.1:8000/get_loginUI/
+1539507485257	Marionette	DEBUG	[4294967297] Received DOM event DOMContentLoaded for http://127.0.0.1:8000/success/
+1539507485267	Marionette	DEBUG	[4294967297] Received DOM event pageshow for http://127.0.0.1:8000/success/
+1539510841144	mozrunner::runner	INFO	Running command: "F:\\FireFox\\firefox.exe" "-marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\ADMINI~1\\AppData\\Local\\Temp\\rust_mozprofile.5f0ZmUoZsCSP"
+1539510847415	Marionette	INFO	Listening on port 53193
+1539510847617	Marionette	WARN	TLS certificate errors will be ignored for this session
+1539510847664	Marionette	DEBUG	[4294967297] Frame script loaded
+1539510847721	Marionette	DEBUG	[4294967297] Frame script registered
+1539511295290	Marionette	DEBUG	[4294967297] Received DOM event beforeunload for about:blank
+1539511295342	Marionette	DEBUG	[4294967297] Received DOM event pagehide for about:blank
+1539511295632	Marionette	DEBUG	[4294967297] Received DOM event DOMContentLoaded for http://127.0.0.1:8000/get_loginUI/
+1539511296643	Marionette	DEBUG	[4294967297] Received DOM event pageshow for http://127.0.0.1:8000/get_loginUI/
+1539511296824	Marionette	DEBUG	[4294967297] Received DOM event beforeunload for http://127.0.0.1:8000/get_loginUI/
+1539511296842	Marionette	DEBUG	[4294967297] Received DOM event pagehide for http://127.0.0.1:8000/get_loginUI/
+1539511296842	Marionette	DEBUG	[4294967297] Received DOM event unload for http://127.0.0.1:8000/get_loginUI/
+1539511296848	Marionette	DEBUG	[4294967297] Received DOM event DOMContentLoaded for http://127.0.0.1:8000/fail/
+1539511296857	Marionette	DEBUG	[4294967297] Received DOM event pageshow for http://127.0.0.1:8000/fail/
+1539511422441	Marionette	DEBUG	[4294967297] Received DOM event beforeunload for http://127.0.0.1:8000/fail/
+1539511422463	Marionette	DEBUG	[4294967297] Received DOM event pagehide for http://127.0.0.1:8000/fail/
+1539511422596	Marionette	DEBUG	[4294967297] Received DOM event DOMContentLoaded for http://127.0.0.1:8000/get_loginUI/
+1539511424891	Marionette	DEBUG	[4294967297] Received DOM event pageshow for http://127.0.0.1:8000/get_loginUI/
+1539511425102	Marionette	DEBUG	[4294967297] Received DOM event beforeunload for http://127.0.0.1:8000/get_loginUI/
+1539511425112	Marionette	DEBUG	[4294967297] Received DOM event pagehide for http://127.0.0.1:8000/get_loginUI/
+1539511425113	Marionette	DEBUG	[4294967297] Received DOM event unload for http://127.0.0.1:8000/get_loginUI/
+1539511425120	Marionette	DEBUG	[4294967297] Received DOM event DOMContentLoaded for http://127.0.0.1:8000/success/
+1539511425135	Marionette	DEBUG	[4294967297] Received DOM event pageshow for http://127.0.0.1:8000/success/
+1539511650568	Marionette	DEBUG	[4294967297] Received DOM event beforeunload for http://127.0.0.1:8000/success/
+1539511650591	Marionette	DEBUG	[4294967297] Received DOM event pagehide for http://127.0.0.1:8000/success/
+1539511650690	Marionette	DEBUG	[4294967297] Received DOM event DOMContentLoaded for http://127.0.0.1:8000/get_loginUI/
+1539511651704	Marionette	DEBUG	[4294967297] Received DOM event pageshow for http://127.0.0.1:8000/get_loginUI/
+1539511651795	Marionette	DEBUG	[4294967297] Received DOM event beforeunload for http://127.0.0.1:8000/get_loginUI/
+1539511651809	Marionette	DEBUG	[4294967297] Received DOM event pagehide for http://127.0.0.1:8000/get_loginUI/
+1539511651809	Marionette	DEBUG	[4294967297] Received DOM event unload for http://127.0.0.1:8000/get_loginUI/
+1539511651814	Marionette	DEBUG	[4294967297] Received DOM event DOMContentLoaded for http://127.0.0.1:8000/success/
+1539511651825	Marionette	DEBUG	[4294967297] Received DOM event pageshow for http://127.0.0.1:8000/success/
+1539511661828	mozrunner::runner	INFO	Running command: "F:\\FireFox\\firefox.exe" "-marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\ADMINI~1\\AppData\\Local\\Temp\\rust_mozprofile.gQ2ImUNx2MI3"
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+1539511666125	Marionette	INFO	Listening on port 53537
+1539511666432	Marionette	WARN	TLS certificate errors will be ignored for this session
+1539511666497	Marionette	DEBUG	[4294967297] Frame script loaded
+1539511666512	Marionette	DEBUG	[4294967297] Frame script registered
+1539511670880	mozrunner::runner	INFO	Running command: "F:\\FireFox\\firefox.exe" "-marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\ADMINI~1\\AppData\\Local\\Temp\\rust_mozprofile.rVVxqyDHt4fF"
+1539511674923	Marionette	INFO	Listening on port 53574
+1539511674992	Marionette	WARN	TLS certificate errors will be ignored for this session
+1539511675076	Marionette	DEBUG	[6442450945] Frame script loaded
+1539511675083	Marionette	DEBUG	[6442450945] Frame script registered
+1539512265289	mozrunner::runner	INFO	Running command: "F:\\FireFox\\firefox.exe" "-marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\ADMINI~1\\AppData\\Local\\Temp\\rust_mozprofile.yUGxk128Ojba"
+1539512269415	Marionette	INFO	Listening on port 53690
+1539512269806	Marionette	WARN	TLS certificate errors will be ignored for this session
+1539512269856	Marionette	DEBUG	[6442450945] Frame script loaded
+1539512269858	Marionette	DEBUG	[6442450945] Frame script registered
+1539512273524	mozrunner::runner	INFO	Running command: "F:\\FireFox\\firefox.exe" "-marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\ADMINI~1\\AppData\\Local\\Temp\\rust_mozprofile.w8OovB0H5ZnX"
+1539512278124	Marionette	INFO	Listening on port 53725
+1539512278193	Marionette	WARN	TLS certificate errors will be ignored for this session
+1539512278237	Marionette	DEBUG	[6442450945] Frame script loaded
+1539512278287	Marionette	DEBUG	[6442450945] Frame script registered
+1539512372774	mozrunner::runner	INFO	Running command: "F:\\FireFox\\firefox.exe" "-marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\ADMINI~1\\AppData\\Local\\Temp\\rust_mozprofile.5PLX2uS49kSm"
+1539512376518	Marionette	INFO	Listening on port 53774
+1539512376981	Marionette	WARN	TLS certificate errors will be ignored for this session
+1539512377027	Marionette	DEBUG	[6442450945] Frame script loaded
+1539512377551	Marionette	DEBUG	[6442450945] Frame script registered
+1539512381791	mozrunner::runner	INFO	Running command: "F:\\FireFox\\firefox.exe" "-marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\ADMINI~1\\AppData\\Local\\Temp\\rust_mozprofile.KYLuvfLrly1H"
+1539512386631	Marionette	INFO	Listening on port 53809
+1539512386928	Marionette	WARN	TLS certificate errors will be ignored for this session
+1539512386992	Marionette	DEBUG	[4294967297] Frame script loaded
+1539512387023	Marionette	DEBUG	[4294967297] Frame script registered
+1539515472380	mozrunner::runner	INFO	Running command: "F:\\FireFox\\firefox.exe" "-marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\ADMINI~1\\AppData\\Local\\Temp\\rust_mozprofile.PyT5UyofCU9m"
+1539515477507	Marionette	INFO	Listening on port 55977
+1539515477610	Marionette	WARN	TLS certificate errors will be ignored for this session
+1539515477656	Marionette	DEBUG	[6442450945] Frame script loaded
+1539515477726	Marionette	DEBUG	[6442450945] Frame script registered
+1539515485446	mozrunner::runner	INFO	Running command: "F:\\FireFox\\firefox.exe" "-marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\ADMINI~1\\AppData\\Local\\Temp\\rust_mozprofile.6BuIHyKqiifs"
+1539515489148	Marionette	INFO	Listening on port 56019
+1539515489582	Marionette	WARN	TLS certificate errors will be ignored for this session
+1539515489685	Marionette	DEBUG	[6442450945] Frame script loaded
+1539515489695	Marionette	DEBUG	[6442450945] Frame script registered
+1539515591352	mozrunner::runner	INFO	Running command: "F:\\FireFox\\firefox.exe" "-marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\ADMINI~1\\AppData\\Local\\Temp\\rust_mozprofile.ani4VGS3hXx5"
+1539515596107	Marionette	INFO	Listening on port 56082
+1539515596609	Marionette	WARN	TLS certificate errors will be ignored for this session
+1539515596671	Marionette	DEBUG	[6442450945] Frame script loaded
+1539515596710	Marionette	DEBUG	[6442450945] Frame script registered
+1539515600357	mozrunner::runner	INFO	Running command: "F:\\FireFox\\firefox.exe" "-marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\ADMINI~1\\AppData\\Local\\Temp\\rust_mozprofile.LLpvH33PJbAs"
+1539515604252	Marionette	INFO	Listening on port 56124
+1539515604511	Marionette	WARN	TLS certificate errors will be ignored for this session
+1539515604562	Marionette	DEBUG	[6442450945] Frame script loaded
+1539515604562	Marionette	DEBUG	[6442450945] Frame script registered
+1539515860781	mozrunner::runner	INFO	Running command: "F:\\FireFox\\firefox.exe" "-marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\ADMINI~1\\AppData\\Local\\Temp\\rust_mozprofile.893FvNCn7xZV"
+1539515865348	Marionette	INFO	Listening on port 56213
+1539515865434	Marionette	WARN	TLS certificate errors will be ignored for this session
+1539515865487	Marionette	DEBUG	[4294967297] Frame script loaded
+1539515865490	Marionette	DEBUG	[4294967297] Frame script registered
+1539515869642	mozrunner::runner	INFO	Running command: "F:\\FireFox\\firefox.exe" "-marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\ADMINI~1\\AppData\\Local\\Temp\\rust_mozprofile.WgUl3mE5oeVI"
+1539515873321	Marionette	INFO	Listening on port 56251
+1539515873586	Marionette	WARN	TLS certificate errors will be ignored for this session
+1539515873647	Marionette	DEBUG	[6442450945] Frame script loaded
+1539515873675	Marionette	DEBUG	[6442450945] Frame script registered
+1539521146211	mozrunner::runner	INFO	Running command: "F:\\FireFox\\firefox.exe" "-marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\ADMINI~1\\AppData\\Local\\Temp\\rust_mozprofile.uP8ZKe4HLwzi"
+1539521152052	Marionette	INFO	Listening on port 58164
+1539521152084	Marionette	WARN	TLS certificate errors will be ignored for this session
+1539521152133	Marionette	DEBUG	[6442450945] Frame script loaded
+1539521152148	Marionette	DEBUG	[6442450945] Frame script registered
+1539521160235	mozrunner::runner	INFO	Running command: "F:\\FireFox\\firefox.exe" "-marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\ADMINI~1\\AppData\\Local\\Temp\\rust_mozprofile.2B5irhHk4ZMt"
+1539521164319	Marionette	INFO	Listening on port 58204
+1539521164711	Marionette	WARN	TLS certificate errors will be ignored for this session
+1539521164760	Marionette	DEBUG	[6442450945] Frame script loaded
+1539521164767	Marionette	DEBUG	[6442450945] Frame script registered
+1539521386308	mozrunner::runner	INFO	Running command: "F:\\FireFox\\firefox.exe" "-marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\ADMINI~1\\AppData\\Local\\Temp\\rust_mozprofile.Tp9timF8FPHj"
+1539521390857	Marionette	INFO	Listening on port 58289
+1539521390875	Marionette	WARN	TLS certificate errors will be ignored for this session
+1539521390924	Marionette	DEBUG	[6442450945] Frame script loaded
+1539521390936	Marionette	DEBUG	[6442450945] Frame script registered
+1539521394775	mozrunner::runner	INFO	Running command: "F:\\FireFox\\firefox.exe" "-marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\ADMINI~1\\AppData\\Local\\Temp\\rust_mozprofile.FVRHVQRrnbUR"
+1539521398934	Marionette	INFO	Listening on port 58327
+1539521399401	Marionette	WARN	TLS certificate errors will be ignored for this session
+1539521399448	Marionette	DEBUG	[6442450945] Frame script loaded
+1539521399449	Marionette	DEBUG	[6442450945] Frame script registered
+1539522801911	mozrunner::runner	INFO	Running command: "F:\\FireFox\\firefox.exe" "-marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\ADMINI~1\\AppData\\Local\\Temp\\rust_mozprofile.AKzREJvFov8B"
+1539522805894	Marionette	INFO	Listening on port 59095
+1539522806052	Marionette	WARN	TLS certificate errors will be ignored for this session
+1539522806114	Marionette	DEBUG	[6442450945] Frame script loaded
+1539522806118	Marionette	DEBUG	[6442450945] Frame script registered
+1539522810002	mozrunner::runner	INFO	Running command: "F:\\FireFox\\firefox.exe" "-marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\ADMINI~1\\AppData\\Local\\Temp\\rust_mozprofile.EFYpL9fme9mX"
+1539522814303	Marionette	INFO	Listening on port 59135
+1539522814533	Marionette	WARN	TLS certificate errors will be ignored for this session
+1539522814576	Marionette	DEBUG	[6442450945] Frame script loaded
+1539522814577	Marionette	DEBUG	[6442450945] Frame script registered
+1539523200587	mozrunner::runner	INFO	Running command: "F:\\FireFox\\firefox.exe" "-marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\ADMINI~1\\AppData\\Local\\Temp\\rust_mozprofile.ufSF0s2LM2yl"
+1539523204815	Marionette	INFO	Listening on port 59305
+1539523205003	Marionette	WARN	TLS certificate errors will be ignored for this session
+1539523205049	Marionette	DEBUG	[6442450945] Frame script loaded
+1539523205061	Marionette	DEBUG	[6442450945] Frame script registered
+1539523208804	mozrunner::runner	INFO	Running command: "F:\\FireFox\\firefox.exe" "-marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\ADMINI~1\\AppData\\Local\\Temp\\rust_mozprofile.dCKV3ORNB8Ek"
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+1539523213183	Marionette	INFO	Listening on port 59345
+1539523213477	Marionette	WARN	TLS certificate errors will be ignored for this session
+1539523213521	Marionette	DEBUG	[6442450945] Frame script loaded
+1539523213534	Marionette	DEBUG	[6442450945] Frame script registered
+1539523609511	mozrunner::runner	INFO	Running command: "F:\\FireFox\\firefox.exe" "-marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\ADMINI~1\\AppData\\Local\\Temp\\rust_mozprofile.IkD3zQXDzgPc"
+1539523614278	Marionette	INFO	Listening on port 59523
+1539523614784	Marionette	WARN	TLS certificate errors will be ignored for this session
+1539523614830	Marionette	DEBUG	[6442450945] Frame script loaded
+1539523614841	Marionette	DEBUG	[6442450945] Frame script registered
+1539523618420	mozrunner::runner	INFO	Running command: "F:\\FireFox\\firefox.exe" "-marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\ADMINI~1\\AppData\\Local\\Temp\\rust_mozprofile.WQEBczr6GSjM"
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+1539523622614	Marionette	INFO	Listening on port 59561
+1539523623008	Marionette	WARN	TLS certificate errors will be ignored for this session
+1539523623054	Marionette	DEBUG	[6442450945] Frame script loaded
+1539523623067	Marionette	DEBUG	[6442450945] Frame script registered
+1539523945377	mozrunner::runner	INFO	Running command: "F:\\FireFox\\firefox.exe" "-marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\ADMINI~1\\AppData\\Local\\Temp\\rust_mozprofile.twcmcmUwg5UQ"
+1539523951977	Marionette	INFO	Listening on port 59812
+1539523952411	Marionette	WARN	TLS certificate errors will be ignored for this session
+1539523952503	Marionette	DEBUG	[6442450945] Frame script loaded
+1539523952543	Marionette	DEBUG	[6442450945] Frame script registered
+1539523956736	mozrunner::runner	INFO	Running command: "F:\\FireFox\\firefox.exe" "-marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\ADMINI~1\\AppData\\Local\\Temp\\rust_mozprofile.bv3PWovi04wY"
+1539523963199	Marionette	INFO	Listening on port 59860
+1539523963520	Marionette	WARN	TLS certificate errors will be ignored for this session
+1539523963590	Marionette	DEBUG	[6442450945] Frame script loaded
+1539523963593	Marionette	DEBUG	[6442450945] Frame script registered
+1539525231546	mozrunner::runner	INFO	Running command: "F:\\FireFox\\firefox.exe" "-marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\ADMINI~1\\AppData\\Local\\Temp\\rust_mozprofile.7y4u90ipCyhn"
+1539525238557	Marionette	INFO	Listening on port 60560
+1539525238756	Marionette	WARN	TLS certificate errors will be ignored for this session
+1539525238814	Marionette	DEBUG	[6442450945] Frame script loaded
+1539525238854	Marionette	DEBUG	[6442450945] Frame script registered
+1539525242849	mozrunner::runner	INFO	Running command: "F:\\FireFox\\firefox.exe" "-marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\ADMINI~1\\AppData\\Local\\Temp\\rust_mozprofile.k5gQVqgsQ03B"
+1539525250725	Marionette	INFO	Listening on port 60612
+1539525251090	Marionette	WARN	TLS certificate errors will be ignored for this session
+1539525251177	Marionette	DEBUG	[6442450945] Frame script loaded
+1539525251226	Marionette	DEBUG	[6442450945] Frame script registered
+1539525907886	mozrunner::runner	INFO	Running command: "F:\\FireFox\\firefox.exe" "-marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\ADMINI~1\\AppData\\Local\\Temp\\rust_mozprofile.Lf0TwP1TmI9u"
+1539525913123	Marionette	INFO	Listening on port 61019
+1539525913246	Marionette	WARN	TLS certificate errors will be ignored for this session
+1539525913293	Marionette	DEBUG	[6442450945] Frame script loaded
+1539525913309	Marionette	DEBUG	[6442450945] Frame script registered
+1539525917167	mozrunner::runner	INFO	Running command: "F:\\FireFox\\firefox.exe" "-marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\ADMINI~1\\AppData\\Local\\Temp\\rust_mozprofile.stuZbUPcurmi"
+1539525922904	Marionette	INFO	Listening on port 61060
+1539525923019	Marionette	WARN	TLS certificate errors will be ignored for this session
+1539525923067	Marionette	DEBUG	[6442450945] Frame script loaded
+1539525923084	Marionette	DEBUG	[6442450945] Frame script registered
+1539525978652	mozrunner::runner	INFO	Running command: "F:\\FireFox\\firefox.exe" "-marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\ADMINI~1\\AppData\\Local\\Temp\\rust_mozprofile.KWo9ej8JQuMY"
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+1539525985527	Marionette	INFO	Listening on port 61139
+1539525985696	Marionette	WARN	TLS certificate errors will be ignored for this session
+1539525985759	Marionette	DEBUG	[6442450945] Frame script loaded
+1539525985810	Marionette	DEBUG	[6442450945] Frame script registered
+1539525990778	mozrunner::runner	INFO	Running command: "F:\\FireFox\\firefox.exe" "-marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\ADMINI~1\\AppData\\Local\\Temp\\rust_mozprofile.ioCxjkmM41Dk"
+1539525997659	Marionette	INFO	Listening on port 61188
+1539525998013	Marionette	WARN	TLS certificate errors will be ignored for this session
+1539525998077	Marionette	DEBUG	[6442450945] Frame script loaded
+1539525998105	Marionette	DEBUG	[6442450945] Frame script registered
+1539530058427	mozrunner::runner	INFO	Running command: "F:\\FireFox\\firefox.exe" "-marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\ADMINI~1\\AppData\\Local\\Temp\\rust_mozprofile.WY0MRRXzK1J1"
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+1539530065299	Marionette	INFO	Listening on port 62956
+1539530065400	Marionette	WARN	TLS certificate errors will be ignored for this session
+1539530065460	Marionette	DEBUG	[4294967297] Frame script loaded
+1539530065470	Marionette	DEBUG	[4294967297] Frame script registered
+1539530075050	mozrunner::runner	INFO	Running command: "F:\\FireFox\\firefox.exe" "-marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\ADMINI~1\\AppData\\Local\\Temp\\rust_mozprofile.LiFGw1shGYcU"
+1539530079831	Marionette	INFO	Listening on port 63007
+1539530080190	Marionette	WARN	TLS certificate errors will be ignored for this session
+1539530080240	Marionette	DEBUG	[6442450945] Frame script loaded
+1539530080262	Marionette	DEBUG	[6442450945] Frame script registered
+1539530156533	mozrunner::runner	INFO	Running command: "F:\\FireFox\\firefox.exe" "-marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\ADMINI~1\\AppData\\Local\\Temp\\rust_mozprofile.k8vFt4sTAYq3"
+1539530160356	Marionette	INFO	Listening on port 63075
+1539530160595	Marionette	WARN	TLS certificate errors will be ignored for this session
+1539530160639	Marionette	DEBUG	[6442450945] Frame script loaded
+1539530160652	Marionette	DEBUG	[6442450945] Frame script registered
+1539530164713	mozrunner::runner	INFO	Running command: "F:\\FireFox\\firefox.exe" "-marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\ADMINI~1\\AppData\\Local\\Temp\\rust_mozprofile.kCfnyGHkS004"
+1539530169422	Marionette	INFO	Listening on port 63112
+1539530169911	Marionette	WARN	TLS certificate errors will be ignored for this session
+1539530169965	Marionette	DEBUG	[6442450945] Frame script loaded
+1539530170058	Marionette	DEBUG	[6442450945] Frame script registered
+1539530394939	mozrunner::runner	INFO	Running command: "F:\\FireFox\\firefox.exe" "-marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\ADMINI~1\\AppData\\Local\\Temp\\rust_mozprofile.FucSj754Om4h"
+1539530399403	Marionette	INFO	Listening on port 63215
+1539530399502	Marionette	WARN	TLS certificate errors will be ignored for this session
+1539530399547	Marionette	DEBUG	[6442450945] Frame script loaded
+1539530399549	Marionette	DEBUG	[6442450945] Frame script registered
+1539530404069	mozrunner::runner	INFO	Running command: "F:\\FireFox\\firefox.exe" "-marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\ADMINI~1\\AppData\\Local\\Temp\\rust_mozprofile.7T5QPb739rDW"
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+1539530409211	Marionette	INFO	Listening on port 63257
+1539530409340	Marionette	WARN	TLS certificate errors will be ignored for this session
+1539530409409	Marionette	DEBUG	[6442450945] Frame script loaded
+1539530409420	Marionette	DEBUG	[6442450945] Frame script registered
+1539530490555	mozrunner::runner	INFO	Running command: "F:\\FireFox\\firefox.exe" "-marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\ADMINI~1\\AppData\\Local\\Temp\\rust_mozprofile.onf0TkwcxbXT"
+1539530495362	Marionette	INFO	Listening on port 63333
+1539530495689	Marionette	WARN	TLS certificate errors will be ignored for this session
+1539530495737	Marionette	DEBUG	[6442450945] Frame script loaded
+1539530495749	Marionette	DEBUG	[6442450945] Frame script registered
+1539530499918	mozrunner::runner	INFO	Running command: "F:\\FireFox\\firefox.exe" "-marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\ADMINI~1\\AppData\\Local\\Temp\\rust_mozprofile.BhXyqNYhzngb"
+1539530505000	Marionette	INFO	Listening on port 63377
+1539530505217	Marionette	WARN	TLS certificate errors will be ignored for this session
+1539530505282	Marionette	DEBUG	[6442450945] Frame script loaded
+1539530505297	Marionette	DEBUG	[6442450945] Frame script registered
+1539530553000	mozrunner::runner	INFO	Running command: "F:\\FireFox\\firefox.exe" "-marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\ADMINI~1\\AppData\\Local\\Temp\\rust_mozprofile.mylv6it6pEKz"
+1539530557463	Marionette	INFO	Listening on port 63445
+1539530557609	Marionette	WARN	TLS certificate errors will be ignored for this session
+1539530557655	Marionette	DEBUG	[6442450945] Frame script loaded
+1539530557659	Marionette	DEBUG	[6442450945] Frame script registered
+1539530561812	mozrunner::runner	INFO	Running command: "F:\\FireFox\\firefox.exe" "-marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\ADMINI~1\\AppData\\Local\\Temp\\rust_mozprofile.Um0z9gMC3TAX"
+1539530566017	Marionette	INFO	Listening on port 63487
+1539530566454	Marionette	WARN	TLS certificate errors will be ignored for this session
+1539530566548	Marionette	DEBUG	[6442450945] Frame script loaded
+1539530566571	Marionette	DEBUG	[6442450945] Frame script registered
+1539530791710	mozrunner::runner	INFO	Running command: "F:\\FireFox\\firefox.exe" "-marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\ADMINI~1\\AppData\\Local\\Temp\\rust_mozprofile.mfo0kYq0mztg"
+1539530796519	Marionette	INFO	Listening on port 63613
+1539530796674	Marionette	WARN	TLS certificate errors will be ignored for this session
+1539530796729	Marionette	DEBUG	[6442450945] Frame script loaded
+1539530796744	Marionette	DEBUG	[6442450945] Frame script registered
+1539530800971	mozrunner::runner	INFO	Running command: "F:\\FireFox\\firefox.exe" "-marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\ADMINI~1\\AppData\\Local\\Temp\\rust_mozprofile.fQYe4A98EMxa"
+1539530805476	Marionette	INFO	Listening on port 63653
+1539530805548	Marionette	WARN	TLS certificate errors will be ignored for this session
+1539530805603	Marionette	DEBUG	[6442450945] Frame script loaded
+1539530805618	Marionette	DEBUG	[6442450945] Frame script registered
+1539530944082	mozrunner::runner	INFO	Running command: "F:\\FireFox\\firefox.exe" "-marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\ADMINI~1\\AppData\\Local\\Temp\\rust_mozprofile.SkxtMQfnpM9b"
+1539530948355	Marionette	INFO	Listening on port 63743
+1539530948751	Marionette	WARN	TLS certificate errors will be ignored for this session
+1539530948801	Marionette	DEBUG	[4294967297] Frame script loaded
+1539530948828	Marionette	DEBUG	[4294967297] Frame script registered
+1539530952461	mozrunner::runner	INFO	Running command: "F:\\FireFox\\firefox.exe" "-marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\ADMINI~1\\AppData\\Local\\Temp\\rust_mozprofile.a9UbOYtglBcn"
+1539530956975	Marionette	INFO	Listening on port 63783
+1539530957059	Marionette	WARN	TLS certificate errors will be ignored for this session
+1539530957107	Marionette	DEBUG	[6442450945] Frame script loaded
+1539530957119	Marionette	DEBUG	[6442450945] Frame script registered
+1539531072213	mozrunner::runner	INFO	Running command: "F:\\FireFox\\firefox.exe" "-marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\ADMINI~1\\AppData\\Local\\Temp\\rust_mozprofile.CnCgG2ZI8JR2"
+1539531076629	Marionette	INFO	Listening on port 63859
+1539531076881	Marionette	WARN	TLS certificate errors will be ignored for this session
+1539531076937	Marionette	DEBUG	[6442450945] Frame script loaded
+1539531076979	Marionette	DEBUG	[6442450945] Frame script registered
+1539532159387	Marionette	DEBUG	[6442450945] Received DOM event beforeunload for about:blank
+1539532159436	Marionette	DEBUG	[6442450945] Received DOM event pagehide for about:blank
+1539532159713	Marionette	DEBUG	[6442450945] Received DOM event DOMContentLoaded for http://127.0.0.1:8000/get_loginUI/
+1539532160722	Marionette	DEBUG	[6442450945] Received DOM event pageshow for http://127.0.0.1:8000/get_loginUI/
+1539532160907	Marionette	DEBUG	[6442450945] Received DOM event beforeunload for http://127.0.0.1:8000/get_loginUI/
+1539532160927	Marionette	DEBUG	[6442450945] Received DOM event pagehide for http://127.0.0.1:8000/get_loginUI/
+1539532160927	Marionette	DEBUG	[6442450945] Received DOM event unload for http://127.0.0.1:8000/get_loginUI/
+1539532160932	Marionette	DEBUG	[6442450945] Received DOM event DOMContentLoaded for http://127.0.0.1:8000/fail/
+1539532160948	Marionette	DEBUG	[6442450945] Received DOM event pageshow for http://127.0.0.1:8000/fail/
+1539532254548	Marionette	DEBUG	[6442450945] Received DOM event beforeunload for http://127.0.0.1:8000/fail/
+1539532254939	Marionette	DEBUG	[6442450945] Received DOM event pagehide for http://127.0.0.1:8000/fail/
+1539532255264	Marionette	DEBUG	[6442450945] Received DOM event DOMContentLoaded for http://127.0.0.1:8000/get_loginUI/
+1539532257615	Marionette	DEBUG	[6442450945] Received DOM event pageshow for http://127.0.0.1:8000/get_loginUI/
+1539532257771	Marionette	DEBUG	[6442450945] Received DOM event beforeunload for http://127.0.0.1:8000/get_loginUI/
+1539532257778	Marionette	DEBUG	[6442450945] Received DOM event pagehide for http://127.0.0.1:8000/get_loginUI/
+1539532257778	Marionette	DEBUG	[6442450945] Received DOM event unload for http://127.0.0.1:8000/get_loginUI/
+1539532257784	Marionette	DEBUG	[6442450945] Received DOM event DOMContentLoaded for http://127.0.0.1:8000/fail/
+1539532257790	Marionette	DEBUG	[6442450945] Received DOM event pageshow for http://127.0.0.1:8000/fail/
+1539532355939	Marionette	DEBUG	[6442450945] Received DOM event beforeunload for http://127.0.0.1:8000/fail/
+1539532355956	Marionette	DEBUG	[6442450945] Received DOM event pagehide for http://127.0.0.1:8000/fail/
+1539532356292	Marionette	DEBUG	[6442450945] Received DOM event DOMContentLoaded for http://127.0.0.1:8000/get_loginUI/
+1539532357361	Marionette	DEBUG	[6442450945] Received DOM event pageshow for http://127.0.0.1:8000/get_loginUI/
+1539532357857	Marionette	DEBUG	[6442450945] Received DOM event beforeunload for http://127.0.0.1:8000/get_loginUI/
+1539532357867	Marionette	DEBUG	[6442450945] Received DOM event pagehide for http://127.0.0.1:8000/get_loginUI/
+1539532357868	Marionette	DEBUG	[6442450945] Received DOM event unload for http://127.0.0.1:8000/get_loginUI/
+1539532357874	Marionette	DEBUG	[6442450945] Received DOM event DOMContentLoaded for http://127.0.0.1:8000/success/
+1539532357887	Marionette	DEBUG	[6442450945] Received DOM event pageshow for http://127.0.0.1:8000/success/
+1539533253514	mozrunner::runner	INFO	Running command: "F:\\FireFox\\firefox.exe" "-marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\ADMINI~1\\AppData\\Local\\Temp\\rust_mozprofile.kklFFwn6pv4E"
+1539533257765	Marionette	INFO	Listening on port 64596
+1539533258130	Marionette	WARN	TLS certificate errors will be ignored for this session
+1539533258192	Marionette	DEBUG	[6442450945] Frame script loaded
+1539533258210	Marionette	DEBUG	[6442450945] Frame script registered
+[Parent 998756, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 993940, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 993940, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 994800, Chrome_ChildThread] WARNING: pipe[Parent 999088, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 999376, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 999376, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 995196, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 995196, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Parent 999088, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+1539533413967	Marionette	INFO	Stopped listening on port 64649
+[GPU 995308, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+1539533420911	mozrunner::runner	INFO	Running command: "F:\\FireFox\\firefox.exe" "-marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\ADMINI~1\\AppData\\Local\\Temp\\rust_mozprofile.6tVDoAgZ1sil"
+1539533425021	Marionette	INFO	Listening on port 64798
+1539533425412	Marionette	WARN	TLS certificate errors will be ignored for this session
+1539533425489	Marionette	DEBUG	[6442450945] Frame script loaded
+1539533425509	Marionette	DEBUG	[6442450945] Frame script registered
+1539533429560	mozrunner::runner	INFO	Running command: "F:\\FireFox\\firefox.exe" "-marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\ADMINI~1\\AppData\\Local\\Temp\\rust_mozprofile.icQZ54rc3kWg"
+1539533433569	Marionette	INFO	Listening on port 64836
+1539533433601	Marionette	WARN	TLS certificate errors will be ignored for this session
+1539533433647	Marionette	DEBUG	[6442450945] Frame script loaded
+1539533433663	Marionette	DEBUG	[6442450945] Frame script registered
+1539533895407	mozrunner::runner	INFO	Running command: "F:\\FireFox\\firefox.exe" "-marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\ADMINI~1\\AppData\\Local\\Temp\\rust_mozprofile.YKdxPz1FiaNs"
+1539533899658	Marionette	INFO	Listening on port 65008
+1539533899989	Marionette	WARN	TLS certificate errors will be ignored for this session
+1539533900058	Marionette	DEBUG	[6442450945] Frame script loaded
+1539533900071	Marionette	DEBUG	[6442450945] Frame script registered
+1539533904803	mozrunner::runner	INFO	Running command: "F:\\FireFox\\firefox.exe" "-marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\ADMINI~1\\AppData\\Local\\Temp\\rust_mozprofile.fXOBZXsfUjQQ"
+1539533910332	Marionette	INFO	Listening on port 65048
+1539533910590	Marionette	WARN	TLS certificate errors will be ignored for this session
+1539533910638	Marionette	DEBUG	[6442450945] Frame script loaded
+1539533910650	Marionette	DEBUG	[6442450945] Frame script registered
+1539534023542	mozrunner::runner	INFO	Running command: "F:\\FireFox\\firefox.exe" "-marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\ADMINI~1\\AppData\\Local\\Temp\\rust_mozprofile.A15YyEp3WC3T"
+1539534027472	Marionette	INFO	Listening on port 65176
+1539534027612	Marionette	WARN	TLS certificate errors will be ignored for this session
+1539534027663	Marionette	DEBUG	[6442450945] Frame script loaded
+1539534027671	Marionette	DEBUG	[6442450945] Frame script registered
+1539534032509	mozrunner::runner	INFO	Running command: "F:\\FireFox\\firefox.exe" "-marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\ADMINI~1\\AppData\\Local\\Temp\\rust_mozprofile.szdzLkWyQQLL"
+1539534037287	Marionette	INFO	Listening on port 65216
+1539534037745	Marionette	WARN	TLS certificate errors will be ignored for this session
+1539534037804	Marionette	DEBUG	[6442450945] Frame script loaded
+1539534037825	Marionette	DEBUG	[6442450945] Frame script registered
+1539534211850	mozrunner::runner	INFO	Running command: "F:\\FireFox\\firefox.exe" "-marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\ADMINI~1\\AppData\\Local\\Temp\\rust_mozprofile.hghK3rxW91Mb"
+1539534216759	Marionette	INFO	Listening on port 65303
+1539534217153	Marionette	WARN	TLS certificate errors will be ignored for this session
+1539534217197	Marionette	DEBUG	[4294967297] Frame script loaded
+1539534217202	Marionette	DEBUG	[4294967297] Frame script registered
+1539534221298	mozrunner::runner	INFO	Running command: "F:\\FireFox\\firefox.exe" "-marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\ADMINI~1\\AppData\\Local\\Temp\\rust_mozprofile.QoCQVA4GuT8E"
+1539534225890	Marionette	INFO	Listening on port 65343
+1539534226022	Marionette	WARN	TLS certificate errors will be ignored for this session
+1539534226094	Marionette	DEBUG	[6442450945] Frame script loaded
+1539534226276	Marionette	DEBUG	[6442450945] Frame script registered
+1539534644345	mozrunner::runner	INFO	Running command: "F:\\FireFox\\firefox.exe" "-marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\ADMINI~1\\AppData\\Local\\Temp\\rust_mozprofile.Su1ox0b5x1yD"
+1539534648754	Marionette	INFO	Listening on port 65472
+1539534648849	Marionette	WARN	TLS certificate errors will be ignored for this session
+1539534648896	Marionette	DEBUG	[6442450945] Frame script loaded
+1539534648898	Marionette	DEBUG	[6442450945] Frame script registered
+1539534655514	mozrunner::runner	INFO	Running command: "F:\\FireFox\\firefox.exe" "-marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\ADMINI~1\\AppData\\Local\\Temp\\rust_mozprofile.UnFn6Nx5X1Tp"
+1539534659700	Marionette	INFO	Listening on port 65516
+1539534660164	Marionette	WARN	TLS certificate errors will be ignored for this session
+1539534660207	Marionette	DEBUG	[6442450945] Frame script loaded
+1539534660218	Marionette	DEBUG	[6442450945] Frame script registered
+console.error: (new Error("Error(s) encountered during statement execution: database or disk is full", "resource://gre/modules/Sqlite.jsm", 822))
+1539534670998	mozrunner::runner	INFO	Running command: "F:\\FireFox\\firefox.exe" "-marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\ADMINI~1\\AppData\\Local\\Temp\\rust_mozprofile.YbfzPQ7xAz0r"
+1539534674865	addons.xpi-utils	WARN	Failed to save XPI database: {"operation":"write","path":"C:\\Users\\Administrator\\AppData\\Local\\Temp\\rust_mozprofile.YbfzPQ7xAz0r\\extensions.json","winLastError":112}
+1539534675070	Marionette	INFO	Listening on port 49186
+console.error: PushService: 
+  stateChangeProcessEnqueue: Error transitioning state
+  UnknownError
+1539534675122	Marionette	WARN	TLS certificate errors will be ignored for this session
+1539534675171	Marionette	DEBUG	[6442450945] Frame script loaded
+1539534675172	Marionette	DEBUG	[6442450945] Frame script registered
+1539534675252	addons.xpi-utils	WARN	Failed to save XPI database: {"operation":"write","path":"C:\\Users\\Administrator\\AppData\\Local\\Temp\\rust_mozprofile.YbfzPQ7xAz0r\\extensions.json","winLastError":112}
+console.error: "Could not write session state file " (new Error("", "(unknown module)")) ""
+1539535974911	mozrunner::runner	INFO	Running command: "F:\\FireFox\\firefox.exe" "-marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\ADMINI~1\\AppData\\Local\\Temp\\rust_mozprofile.B25DkRPZJNi6"
+1539535979095	Marionette	INFO	Listening on port 50444
+1539535979557	Marionette	WARN	TLS certificate errors will be ignored for this session
+1539535979624	Marionette	DEBUG	[6442450945] Frame script loaded
+1539535979637	Marionette	DEBUG	[6442450945] Frame script registered
+1539535983591	mozrunner::runner	INFO	Running command: "F:\\FireFox\\firefox.exe" "-marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\ADMINI~1\\AppData\\Local\\Temp\\rust_mozprofile.1DWouKl9srA2"
+1539535987996	Marionette	INFO	Listening on port 50480
+1539535988120	Marionette	WARN	TLS certificate errors will be ignored for this session
+1539535988172	Marionette	DEBUG	[6442450945] Frame script loaded
+1539535988184	Marionette	DEBUG	[6442450945] Frame script registered
+1539537330328	mozrunner::runner	INFO	Running command: "F:\\FireFox\\firefox.exe" "-marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\ADMINI~1\\AppData\\Local\\Temp\\rust_mozprofile.aF7Bdd6wPF5p"
+1539537334785	Marionette	INFO	Listening on port 51244
+1539537334903	Marionette	WARN	TLS certificate errors will be ignored for this session
+1539537334957	Marionette	DEBUG	[6442450945] Frame script loaded
+1539537334971	Marionette	DEBUG	[6442450945] Frame script registered
+1539537338781	mozrunner::runner	INFO	Running command: "F:\\FireFox\\firefox.exe" "-marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\ADMINI~1\\AppData\\Local\\Temp\\rust_mozprofile.hAX2DGaDQdKR"
+1539537342795	Marionette	INFO	Listening on port 51282
+1539537343218	Marionette	WARN	TLS certificate errors will be ignored for this session
+1539537343280	Marionette	DEBUG	[6442450945] Frame script loaded
+1539537343296	Marionette	DEBUG	[6442450945] Frame script registered
+1539537500996	mozrunner::runner	INFO	Running command: "F:\\FireFox\\firefox.exe" "-marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\ADMINI~1\\AppData\\Local\\Temp\\rust_mozprofile.kIeV6rzJMkon"
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+1539537505454	Marionette	INFO	Listening on port 51348
+1539537505614	Marionette	WARN	TLS certificate errors will be ignored for this session
+1539537505669	Marionette	DEBUG	[6442450945] Frame script loaded
+1539537505695	Marionette	DEBUG	[6442450945] Frame script registered
+1539537509354	mozrunner::runner	INFO	Running command: "F:\\FireFox\\firefox.exe" "-marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\ADMINI~1\\AppData\\Local\\Temp\\rust_mozprofile.iJ0OCX6VS8Ak"
+1539537513874	Marionette	INFO	Listening on port 51388
+1539537513993	Marionette	WARN	TLS certificate errors will be ignored for this session
+1539537514042	Marionette	DEBUG	[6442450945] Frame script loaded
+1539537514103	Marionette	DEBUG	[6442450945] Frame script registered
+1539537841938	mozrunner::runner	INFO	Running command: "F:\\FireFox\\firefox.exe" "-marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\ADMINI~1\\AppData\\Local\\Temp\\rust_mozprofile.wCXQPtkwg5bN"
+1539537846627	Marionette	INFO	Listening on port 51489
+1539537847055	Marionette	WARN	TLS certificate errors will be ignored for this session
+1539537847100	Marionette	DEBUG	[6442450945] Frame script loaded
+1539537847111	Marionette	DEBUG	[6442450945] Frame script registered
+1539537877151	Marionette	DEBUG	[6442450945] Received DOM event beforeunload for about:blank
+1539537877963	Marionette	DEBUG	[6442450945] Received DOM event pagehide for about:blank
+1539537878337	Marionette	DEBUG	[6442450945] Received DOM event DOMContentLoaded for http://127.0.0.1:8000/get_loginUI/
+1539537879349	Marionette	DEBUG	[6442450945] Received DOM event pageshow for http://127.0.0.1:8000/get_loginUI/
+1539537879533	Marionette	DEBUG	[6442450945] Received DOM event beforeunload for http://127.0.0.1:8000/get_loginUI/
+1539537879667	Marionette	DEBUG	[6442450945] Received DOM event pagehide for http://127.0.0.1:8000/get_loginUI/
+1539537879668	Marionette	DEBUG	[6442450945] Received DOM event unload for http://127.0.0.1:8000/get_loginUI/
+1539537879674	Marionette	DEBUG	[6442450945] Received DOM event DOMContentLoaded for http://127.0.0.1:8000/fail/
+1539537879690	Marionette	DEBUG	[6442450945] Received DOM event pageshow for http://127.0.0.1:8000/fail/
+1539538027364	mozrunner::runner	INFO	Running command: "F:\\FireFox\\firefox.exe" "-marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\ADMINI~1\\AppData\\Local\\Temp\\rust_mozprofile.eWFslJjAC5JS"
+1539538033339	Marionette	INFO	Listening on port 51622
+1539538033666	Marionette	WARN	TLS certificate errors will be ignored for this session
+1539538033715	Marionette	DEBUG	[6442450945] Frame script loaded
+1539538033724	Marionette	DEBUG	[6442450945] Frame script registered
+1539538065420	Marionette	DEBUG	[6442450945] Received DOM event beforeunload for about:blank
+1539538065435	Marionette	DEBUG	[6442450945] Received DOM event pagehide for about:blank
+1539538065713	Marionette	DEBUG	[6442450945] Received DOM event DOMContentLoaded for http://127.0.0.1:8000/get_loginUI/
+1539538066800	Marionette	DEBUG	[6442450945] Received DOM event pageshow for http://127.0.0.1:8000/get_loginUI/
+1539538067340	Marionette	DEBUG	[6442450945] Received DOM event beforeunload for http://127.0.0.1:8000/get_loginUI/
+1539538067357	Marionette	DEBUG	[6442450945] Received DOM event pagehide for http://127.0.0.1:8000/get_loginUI/
+1539538067357	Marionette	DEBUG	[6442450945] Received DOM event unload for http://127.0.0.1:8000/get_loginUI/
+1539538067362	Marionette	DEBUG	[6442450945] Received DOM event DOMContentLoaded for http://127.0.0.1:8000/fail/
+1539538067375	Marionette	DEBUG	[6442450945] Received DOM event pageshow for http://127.0.0.1:8000/fail/
+1539538184352	mozrunner::runner	INFO	Running command: "F:\\FireFox\\firefox.exe" "-marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\ADMINI~1\\AppData\\Local\\Temp\\rust_mozprofile.7HOCXHSZmubx"
+[GFX1-]: ClientLayerManager::BeginTransaction with IPC channel down. GPU process may have died.
+1539538189869	Marionette	INFO	Listening on port 51760
+1539538190047	Marionette	WARN	TLS certificate errors will be ignored for this session
+1539538190112	Marionette	DEBUG	[6442450945] Frame script loaded
+1539538190139	Marionette	DEBUG	[6442450945] Frame script registered
+1539538193929	mozrunner::runner	INFO	Running command: "F:\\FireFox\\firefox.exe" "-marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\ADMINI~1\\AppData\\Local\\Temp\\rust_mozprofile.YrSGDtzhBvoB"
+1539538198612	Marionette	INFO	Listening on port 51799
+1539538199111	Marionette	WARN	TLS certificate errors will be ignored for this session
+1539538199177	Marionette	DEBUG	[6442450945] Frame script loaded
+1539538199210	Marionette	DEBUG	[6442450945] Frame script registered
+1539538248591	mozrunner::runner	INFO	Running command: "F:\\FireFox\\firefox.exe" "-marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\ADMINI~1\\AppData\\Local\\Temp\\rust_mozprofile.H14wfdD3RDZq"
+1539538252865	Marionette	INFO	Listening on port 51851
+1539538253142	Marionette	WARN	TLS certificate errors will be ignored for this session
+1539538253215	Marionette	DEBUG	[6442450945] Frame script loaded
+1539538253313	Marionette	DEBUG	[6442450945] Frame script registered
+1539567975455	Marionette	DEBUG	[6442450945] Received DOM event beforeunload for about:blank
+1539567975657	Marionette	DEBUG	[6442450945] Received DOM event pagehide for about:blank
+1539567976184	Marionette	DEBUG	[6442450945] Received DOM event DOMContentLoaded for http://127.0.0.1:8000/get_loginUI/
+1539567978210	Marionette	DEBUG	[6442450945] Received DOM event pageshow for http://127.0.0.1:8000/get_loginUI/
+1539567978971	Marionette	DEBUG	[6442450945] Received DOM event beforeunload for http://127.0.0.1:8000/get_loginUI/
+1539567979012	Marionette	DEBUG	[6442450945] Received DOM event pagehide for http://127.0.0.1:8000/get_loginUI/
+1539567979013	Marionette	DEBUG	[6442450945] Received DOM event unload for http://127.0.0.1:8000/get_loginUI/
+1539567979018	Marionette	DEBUG	[6442450945] Received DOM event DOMContentLoaded for http://127.0.0.1:8000/success/
+1539567979032	Marionette	DEBUG	[6442450945] Received DOM event pageshow for http://127.0.0.1:8000/success/
+1539568043222	Marionette	DEBUG	[6442450945] Received DOM event beforeunload for http://127.0.0.1:8000/success/
+1539568043238	Marionette	DEBUG	[6442450945] Received DOM event pagehide for http://127.0.0.1:8000/success/
+1539568043572	Marionette	DEBUG	[6442450945] Received DOM event DOMContentLoaded for http://127.0.0.1:8000/get_loginUI/
+1539568045839	Marionette	DEBUG	[6442450945] Received DOM event pageshow for http://127.0.0.1:8000/get_loginUI/
+1539568045927	Marionette	DEBUG	[6442450945] Received DOM event beforeunload for http://127.0.0.1:8000/get_loginUI/
+1539568045940	Marionette	DEBUG	[6442450945] Received DOM event pagehide for http://127.0.0.1:8000/get_loginUI/
+1539568045946	Marionette	DEBUG	[6442450945] Received DOM event unload for http://127.0.0.1:8000/get_loginUI/
+1539568045951	Marionette	DEBUG	[6442450945] Received DOM event DOMContentLoaded for http://127.0.0.1:8000/success/
+1539568045962	Marionette	DEBUG	[6442450945] Received DOM event pageshow for http://127.0.0.1:8000/success/
+1539577531110	mozrunner::runner	INFO	Running command: "F:\\FireFox\\firefox.exe" "-marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\ADMINI~1\\AppData\\Local\\Temp\\rust_mozprofile.7IrvWI1VTrLJ"
+1539577537640	Marionette	INFO	Listening on port 55889
+1539577538002	Marionette	WARN	TLS certificate errors will be ignored for this session
+1539577538061	Marionette	DEBUG	[4294967297] Frame script loaded
+1539577538077	Marionette	DEBUG	[4294967297] Frame script registered
+1539577548064	mozrunner::runner	INFO	Running command: "F:\\FireFox\\firefox.exe" "-marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\ADMINI~1\\AppData\\Local\\Temp\\rust_mozprofile.F7xONtCWwhuX"
+1539577552903	Marionette	INFO	Listening on port 55941
+1539577553204	Marionette	WARN	TLS certificate errors will be ignored for this session
+1539577553718	Marionette	DEBUG	[6442450945] Frame script loaded
+1539577553728	Marionette	DEBUG	[6442450945] Frame script registered
+1539581667241	mozrunner::runner	INFO	Running command: "F:\\FireFox\\firefox.exe" "-marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\ADMINI~1\\AppData\\Local\\Temp\\rust_mozprofile.aLthkLYKMjS3"
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+1539581672448	Marionette	INFO	Listening on port 56480
+1539581672828	Marionette	WARN	TLS certificate errors will be ignored for this session
+1539581672871	Marionette	DEBUG	[6442450945] Frame script loaded
+1539581672880	Marionette	DEBUG	[6442450945] Frame script registered
+1539581836230	Marionette	DEBUG	[6442450945] Received DOM event beforeunload for about:blank
+1539581836645	Marionette	DEBUG	[6442450945] Received DOM event pagehide for about:blank
+1539581837169	Marionette	DEBUG	[6442450945] Received DOM event DOMContentLoaded for http://127.0.0.1:8000/get_loginUI/
+1539581838180	Marionette	DEBUG	[6442450945] Received DOM event pageshow for http://127.0.0.1:8000/get_loginUI/
+1539581838472	Marionette	DEBUG	[6442450945] Received DOM event beforeunload for http://127.0.0.1:8000/get_loginUI/
+1539581838501	Marionette	DEBUG	[6442450945] Received DOM event pagehide for http://127.0.0.1:8000/get_loginUI/
+1539581838501	Marionette	DEBUG	[6442450945] Received DOM event unload for http://127.0.0.1:8000/get_loginUI/
+1539581838507	Marionette	DEBUG	[6442450945] Received DOM event DOMContentLoaded for http://127.0.0.1:8000/fail/
+1539581838523	Marionette	DEBUG	[6442450945] Received DOM event pageshow for http://127.0.0.1:8000/fail/
+1539581863144	Marionette	DEBUG	[6442450945] Received DOM event beforeunload for http://127.0.0.1:8000/fail/
+1539581863172	Marionette	DEBUG	[6442450945] Received DOM event pagehide for http://127.0.0.1:8000/fail/
+1539581863274	Marionette	DEBUG	[6442450945] Received DOM event DOMContentLoaded for http://127.0.0.1:8000/get_loginUI/
+1539581865539	Marionette	DEBUG	[6442450945] Received DOM event pageshow for http://127.0.0.1:8000/get_loginUI/
+1539581865845	Marionette	DEBUG	[6442450945] Received DOM event beforeunload for http://127.0.0.1:8000/get_loginUI/
+1539581865852	Marionette	DEBUG	[6442450945] Received DOM event pagehide for http://127.0.0.1:8000/get_loginUI/
+1539581865852	Marionette	DEBUG	[6442450945] Received DOM event unload for http://127.0.0.1:8000/get_loginUI/
+1539581865857	Marionette	DEBUG	[6442450945] Received DOM event DOMContentLoaded for http://127.0.0.1:8000/success/
+1539581865871	Marionette	DEBUG	[6442450945] Received DOM event pageshow for http://127.0.0.1:8000/success/
+1539581905532	Marionette	DEBUG	[6442450945] Received DOM event beforeunload for http://127.0.0.1:8000/success/
+1539581905552	Marionette	DEBUG	[6442450945] Received DOM event pagehide for http://127.0.0.1:8000/success/
+1539581905670	Marionette	DEBUG	[6442450945] Received DOM event DOMContentLoaded for http://127.0.0.1:8000/get_loginUI/
+1539581906680	Marionette	DEBUG	[6442450945] Received DOM event pageshow for http://127.0.0.1:8000/get_loginUI/
+1539581906811	Marionette	DEBUG	[6442450945] Received DOM event beforeunload for http://127.0.0.1:8000/get_loginUI/
+1539581906823	Marionette	DEBUG	[6442450945] Received DOM event pagehide for http://127.0.0.1:8000/get_loginUI/
+1539581906824	Marionette	DEBUG	[6442450945] Received DOM event unload for http://127.0.0.1:8000/get_loginUI/
+1539581906829	Marionette	DEBUG	[6442450945] Received DOM event DOMContentLoaded for http://127.0.0.1:8000/success/
+1539581906842	Marionette	DEBUG	[6442450945] Received DOM event pageshow for http://127.0.0.1:8000/success/
+1539582468470	mozrunner::runner	INFO	Running command: "F:\\FireFox\\firefox.exe" "-marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\ADMINI~1\\AppData\\Local\\Temp\\rust_mozprofile.H3tP6XLnTJdf"
+1539582472921	Marionette	INFO	Listening on port 56704
+1539582473265	Marionette	WARN	TLS certificate errors will be ignored for this session
+1539582473310	Marionette	DEBUG	[6442450945] Frame script loaded
+1539582473454	Marionette	DEBUG	[6442450945] Frame script registered
+1539582477323	mozrunner::runner	INFO	Running command: "F:\\FireFox\\firefox.exe" "-marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\ADMINI~1\\AppData\\Local\\Temp\\rust_mozprofile.JV8TcSbMOjyx"
+1539582482188	Marionette	INFO	Listening on port 56742
+1539582482537	Marionette	WARN	TLS certificate errors will be ignored for this session
+1539582482585	Marionette	DEBUG	[4294967297] Frame script loaded
+1539582482644	Marionette	DEBUG	[4294967297] Frame script registered
+1539582773653	mozrunner::runner	INFO	Running command: "F:\\FireFox\\firefox.exe" "-marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\ADMINI~1\\AppData\\Local\\Temp\\rust_mozprofile.UzHPAm1rzQ0C"
+1539582778976	Marionette	INFO	Listening on port 56819
+1539582779002	Marionette	WARN	TLS certificate errors will be ignored for this session
+1539582779046	Marionette	DEBUG	[6442450945] Frame script loaded
+1539582779107	Marionette	DEBUG	[6442450945] Frame script registered
+[Parent 1003792, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 1086060, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 1086060, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+	DEBUG	[6442450945] Frame script registered
+1539583019878	mozrunner::runner	INFO	Running command: "F:\\FireFox\\firefox.exe" "-marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\ADMINI~1\\AppData\\Local\\Temp\\rust_mozprofile.EARdyG1Aw6KN"
+1539583024313	Marionette	INFO	Listening on port 57341
+1539583024538	Marionette	WARN	TLS certificate errors will be ignored for this session
+1539583024598	Marionette	DEBUG	[6442450945] Frame script loaded
+1539583024631	Marionette	DEBUG	[6442450945] Frame script registered
+1539592482137	Marionette	DEBUG	[6442450945] Received DOM event beforeunload for about:blank
+1539592482158	Marionette	DEBUG	[6442450945] Received DOM event pagehide for about:blank
+1539592482437	Marionette	DEBUG	[6442450945] Received DOM event DOMContentLoaded for http://127.0.0.1:8000/get_loginUI/
+1539592483449	Marionette	DEBUG	[6442450945] Received DOM event pageshow for http://127.0.0.1:8000/get_loginUI/
+1539592483655	Marionette	DEBUG	[6442450945] Received DOM event beforeunload for http://127.0.0.1:8000/get_loginUI/
+1539592483672	Marionette	DEBUG	[6442450945] Received DOM event pagehide for http://127.0.0.1:8000/get_loginUI/
+1539592483673	Marionette	DEBUG	[6442450945] Received DOM event unload for http://127.0.0.1:8000/get_loginUI/
+1539592483677	Marionette	DEBUG	[6442450945] Received DOM event DOMContentLoaded for http://127.0.0.1:8000/success/
+1539592483691	Marionette	DEBUG	[6442450945] Received DOM event pageshow for http://127.0.0.1:8000/success/
+1539592852574	Marionette	DEBUG	[6442450945] Received DOM event beforeunload for http://127.0.0.1:8000/success/
+1539592852624	Marionette	DEBUG	[6442450945] Received DOM event pagehide for http://127.0.0.1:8000/success/
+1539592852903	Marionette	DEBUG	[6442450945] Received DOM event DOMContentLoaded for http://127.0.0.1:8000/get_loginUI/
+1539592855167	Marionette	DEBUG	[6442450945] Received DOM event pageshow for http://127.0.0.1:8000/get_loginUI/
+1539592855243	Marionette	DEBUG	[6442450945] Received DOM event beforeunload for http://127.0.0.1:8000/get_loginUI/
+1539592855250	Marionette	DEBUG	[6442450945] Received DOM event pagehide for http://127.0.0.1:8000/get_loginUI/
+1539592855250	Marionette	DEBUG	[6442450945] Received DOM event unload for http://127.0.0.1:8000/get_loginUI/
+1539592855256	Marionette	DEBUG	[6442450945] Received DOM event DOMContentLoaded for http://127.0.0.1:8000/success/
+1539592855266	Marionette	DEBUG	[6442450945] Received DOM event pageshow for http://127.0.0.1:8000/success/
+1539596199307	Marionette	DEBUG	[6442450945] Received DOM event beforeunload for http://127.0.0.1:8000/success/
+1539596199331	Marionette	DEBUG	[6442450945] Received DOM event pagehide for http://127.0.0.1:8000/success/
+1539596199659	Marionette	DEBUG	[6442450945] Received DOM event DOMContentLoaded for http://127.0.0.1:8000/get_loginUI/
+1539596200670	Marionette	DEBUG	[6442450945] Received DOM event pageshow for http://127.0.0.1:8000/get_loginUI/
+1539596200957	Marionette	DEBUG	[6442450945] Received DOM event beforeunload for http://127.0.0.1:8000/get_loginUI/
+1539596200968	Marionette	DEBUG	[6442450945] Received DOM event pagehide for http://127.0.0.1:8000/get_loginUI/
+1539596200972	Marionette	DEBUG	[6442450945] Received DOM event unload for http://127.0.0.1:8000/get_loginUI/
+1539596200977	Marionette	DEBUG	[6442450945] Received DOM event DOMContentLoaded for http://127.0.0.1:8000/success/
+1539596200988	Marionette	DEBUG	[6442450945] Received DOM event pageshow for http://127.0.0.1:8000/success/
+1539598910323	Marionette	DEBUG	[6442450945] Received DOM event beforeunload for http://127.0.0.1:8000/success/
+1539598910346	Marionette	DEBUG	[6442450945] Received DOM event pagehide for http://127.0.0.1:8000/success/
+1539598910627	Marionette	DEBUG	[6442450945] Received DOM event DOMContentLoaded for http://127.0.0.1:8000/get_loginUI/
+1539598911637	Marionette	DEBUG	[6442450945] Received DOM event pageshow for http://127.0.0.1:8000/get_loginUI/
+1539598911742	Marionette	DEBUG	[6442450945] Received DOM event beforeunload for http://127.0.0.1:8000/get_loginUI/
+1539598911760	Marionette	DEBUG	[6442450945] Received DOM event pagehide for http://127.0.0.1:8000/get_loginUI/
+1539598911760	Marionette	DEBUG	[6442450945] Received DOM event unload for http://127.0.0.1:8000/get_loginUI/
+1539598911764	Marionette	DEBUG	[6442450945] Received DOM event DOMContentLoaded for http://127.0.0.1:8000/success/
+1539598911781	Marionette	DEBUG	[6442450945] Received DOM event pageshow for http://127.0.0.1:8000/success/
+1539599575306	mozrunner::runner	INFO	Running command: "F:\\FireFox\\firefox.exe" "-marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\ADMINI~1\\AppData\\Local\\Temp\\rust_mozprofile.cuQi5HqYXqxS"
+1539599582096	Marionette	INFO	Listening on port 59933
+1539599582532	Marionette	WARN	TLS certificate errors will be ignored for this session
+1539599582580	Marionette	DEBUG	[4294967297] Frame script loaded
+1539599582593	Marionette	DEBUG	[4294967297] Frame script registered
+1539599590700	mozrunner::runner	INFO	Running command: "F:\\FireFox\\firefox.exe" "-marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\ADMINI~1\\AppData\\Local\\Temp\\rust_mozprofile.anUEOV5ZVCg1"
+1539599595703	Marionette	INFO	Listening on port 59993
+1539599595884	Marionette	WARN	TLS certificate errors will be ignored for this session
+1539599595927	Marionette	DEBUG	[4294967297] Frame script loaded
+1539599595942	Marionette	DEBUG	[4294967297] Frame script registered
+1539600419278	mozrunner::runner	INFO	Running command: "F:\\FireFox\\firefox.exe" "-marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\ADMINI~1\\AppData\\Local\\Temp\\rust_mozprofile.HFAYjd4gZXlc"
+1539600424472	Marionette	INFO	Listening on port 60221
+1539600424945	Marionette	WARN	TLS certificate errors will be ignored for this session
+1539600424995	Marionette	DEBUG	[6442450945] Frame script loaded
+1539600425018	Marionette	DEBUG	[6442450945] Frame script registered
+JavaScript error: , line 0: uncaught exception: null
+JavaScript error: , line 0: uncaught exception: null
+JavaScript error: , line 0: uncaught exception: null
+JavaScript error: , line 0: uncaught exception: null
+JavaScript error: , line 0: uncaught exception: null
+JavaScript error: , line 0: uncaught exception: null
+gnored for this session
+1539600433799	Marionette	DEBUG	[6442450945] Frame script loaded
+1539600433809	Marionette	DEBUG	[6442450945] Frame script registered
+JavaScript error: , line 0: uncaught exception: null
+JavaScript error: , line 0: uncaught exception: null
+JavaScript error: , line 0: uncaught exception: null
+JavaScript error: , line 0: uncaught exception: null
+JavaScript error: , line 0: uncaught exception: null
+JavaScript error: , line 0: uncaught exception: null

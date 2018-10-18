@@ -1,15 +1,11 @@
 #   -*-coding:utf-8 -*-
 #   @Author: 'ChetWei'
 #   @Time: '2018/9/16 17:43'
-import json
-
-from flask import Flask
 
 
-app = Flask(__name__)
-app.config.from_object('config')
+from app import create_app
 
-from app.web import book
+app = create_app()
 
 
 

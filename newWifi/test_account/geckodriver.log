@@ -1,0 +1,23 @@
+1539763860588	mozrunner::runner	INFO	Running command: "F:\\FireFox\\firefox.exe" "-marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\ADMINI~1\\AppData\\Local\\Temp\\rust_mozprofile.QchZ0CqMuOH7"
+1539763868408	Marionette	INFO	Listening on port 64355
+1539763869077	Marionette	WARN	TLS certificate errors will be ignored for this session
+1539763869123	Marionette	DEBUG	[4294967297] Frame script loaded
+1539763869155	Marionette	DEBUG	[4294967297] Frame script registered
+1539763869732	Marionette	DEBUG	[4294967297] Received DOM event beforeunload for about:blank
+1539763869750	Marionette	DEBUG	[4294967297] Received DOM event pagehide for about:blank
+1539763870118	Marionette	DEBUG	[4294967297] Received DOM event DOMContentLoaded for http://127.0.0.1:8000/get_loginUI/
+1539763871124	Marionette	DEBUG	[4294967297] Received DOM event pageshow for http://127.0.0.1:8000/get_loginUI/
+1539763871647	Marionette	DEBUG	[4294967297] Received DOM event beforeunload for http://127.0.0.1:8000/get_loginUI/
+1539763871662	Marionette	DEBUG	[4294967297] Received DOM event pagehide for http://127.0.0.1:8000/get_loginUI/
+1539763871663	Marionette	DEBUG	[4294967297] Received DOM event unload for http://127.0.0.1:8000/get_loginUI/
+1539763871668	Marionette	DEBUG	[4294967297] Received DOM event DOMContentLoaded for http://127.0.0.1:8000/fail/
+1539763871682	Marionette	DEBUG	[4294967297] Received DOM event pageshow for http://127.0.0.1:8000/fail/
+1539764001153	Marionette	DEBUG	[4294967297] Received DOM event beforeunload for http://127.0.0.1:8000/fail/
+1539764001169	Marionette	DEBUG	[4294967297] Received DOM event pagehide for http://127.0.0.1:8000/fail/
+1539764001447	Marionette	DEBUG	[4294967297] Received DOM event DOMContentLoaded for http://127.0.0.1:8000/get_loginUI/
+1539764003717	Marionette	DEBUG	[4294967297] Received DOM event pageshow for http://127.0.0.1:8000/get_loginUI/
+1539764026639	Marionette	DEBUG	[4294967297] Received DOM event beforeunload for http://127.0.0.1:8000/get_loginUI/
+1539764026651	Marionette	DEBUG	[4294967297] Received DOM event pagehide for http://127.0.0.1:8000/get_loginUI/
+1539764026652	Marionette	DEBUG	[4294967297] Received DOM event unload for http://127.0.0.1:8000/get_loginUI/
+1539764026658	Marionette	DEBUG	[4294967297] Received DOM event DOMContentLoaded for http://127.0.0.1:8000/fail/
+1539764026671	Marionette	DEBUG	[4294967297] Received DOM event pageshow for http://127.0.0.1:8000/fail/
